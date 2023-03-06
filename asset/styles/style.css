@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/* Header */
+header{
+    max-height: 135px;
+    padding: 40px 240px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0A22F4;
+}
+/* header div გამოვიყენე მხოლოდ და კლასი არ მივუთითე რადგან ამ შემთხვევაში მხოლოდ ერთი div გვაქვს header_ში, სხვა შემთხვევაში კლასს მივუთითებდი ;) */
+header div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+li a{
+    /* font-family: ; */
+    color: #FFFFFF;
+}
+.underline::after{
+    margin-top: 6px;
+    content: "";
+    width: 100%;
+    height: 1px;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    display: block;
+}
+.nav-contact{
+    padding: 18px 40px;
+    /* border-radius მოცემულ ვიზუალში კი არ იყო მითითებული მაგრამ */
+    border-radius: 28px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    color: #171717;
+}
+/* main */
+section{
+    margin-top: 350px;
+    padding: 0 240px;
+}
+.div-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.div-title h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: #171717;
+    /* font-family: ; */
+}
+.dots{
+    display: flex;
+    gap: 20px;
+}
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #0A22F4;
+}
+.opacity-circle{
+    opacity: 30%;
+}
+.services{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.services div{
+    max-width: 463px;
+    max-height: 235px;
+}
+.block{
+    margin-top: 0;
+    margin-left: 0;
+    width: 70px;
+    height: 70px;
+    background-color: #F9F9F9;
+}
+.bl-blue{
+    background-color: #0A22F4;
+}
+.services h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #171717;
+    /* font-family: ; */
+}
+.services p{
+    line-height: 26px;
+    color: #171717;
+}
+
