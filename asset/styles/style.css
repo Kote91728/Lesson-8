@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('asset/font/HelveticaNeueMedium.woff2') format('woff2'),
+        url('asset/font/HelveticaNeueMedium.woff') format('woff'),
+        url('asset/font/HelveticaNeueMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 *{
     margin: 0;
     padding: 0;
@@ -32,7 +41,7 @@ header nav ul{
     gap: 45px;
 }
 li a{
-    /* font-family: ; */
+    font-family: HelveticaNeue;
     color: #FFFFFF;
 }
 .underline::after{
@@ -66,7 +75,7 @@ section{
     font-size: 32px;
     font-weight: bold;
     color: #171717;
-    /* font-family: ; */
+    font-family: HelveticaNeue;
 }
 .dots{
     display: flex;
@@ -107,10 +116,11 @@ section{
     font-size: 22px;
     font-weight: bold;
     color: #171717;
-    /* font-family: ; */
+    font-family: HelveticaNeue;
 }
 .services p{
     line-height: 26px;
     color: #171717;
+    font-family: HelveticaNeue;
 }
 
